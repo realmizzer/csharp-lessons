@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BeginnerGround
 {
@@ -10,6 +6,9 @@ namespace BeginnerGround
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Попробуйте перейти к другим версиям в ветках, чтобы получить соответствующие решения");
+
+            Console.ReadKey();
         }
     }
 }
