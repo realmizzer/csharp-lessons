@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeginnerGround", "BeginnerGround\BeginnerGround.csproj", "{FF92E928-FBFD-4BC2-AD5B-E6DEC655CE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Abstract", "04_Abstract\001_Abstract.csproj", "{553B536F-6E8A-4498-9DAD-CABFA049C69E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Abstractions_Interfaces", "04_Abstractions_Interfaces", "{19274BB5-5271-4E17-846E-D995EB98003D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF92E928-FBFD-4BC2-AD5B-E6DEC655CE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF92E928-FBFD-4BC2-AD5B-E6DEC655CE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF92E928-FBFD-4BC2-AD5B-E6DEC655CE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF92E928-FBFD-4BC2-AD5B-E6DEC655CE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553B536F-6E8A-4498-9DAD-CABFA049C69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553B536F-6E8A-4498-9DAD-CABFA049C69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553B536F-6E8A-4498-9DAD-CABFA049C69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553B536F-6E8A-4498-9DAD-CABFA049C69E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{553B536F-6E8A-4498-9DAD-CABFA049C69E} = {19274BB5-5271-4E17-846E-D995EB98003D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96D8CE89-16D4-4E0C-9682-8DC2F20D1830}
+	EndGlobalSection
+EndGlobal
