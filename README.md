@@ -9,7 +9,8 @@ git checkout <branch_name>
 git fetch
 ```
 <br />
-Доступные ветки:
-> 04_Abstraction&Interfaces
-> 05_Arrays&Indexators
-> 06_static&extensions&Nested
+<p>Доступные ветки:</p>
+
+> 04_Abstraction&Interfaces <br />
+> 05_Arrays&Indexators <br />
+> 06_static&extensions&Nested <br />
