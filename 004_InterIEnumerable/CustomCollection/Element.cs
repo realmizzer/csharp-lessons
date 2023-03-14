@@ -1,4 +1,4 @@
-﻿namespace CustomCollection
+﻿namespace InterIEnumerable
 {
     class Element
     {

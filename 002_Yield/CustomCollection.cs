@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 
 namespace Yield
 {
@@ -8,7 +7,11 @@ namespace Yield
     {
         public static IEnumerable Power()
         {
-            // Оператор автоматической генерации кода итератора
+            // yield на уровне компилятора строит nested класс, который
+            // и реализует интерфейсы, необходимые для коллекции,
+            // а сам Power возвращает экзмепляр данной 'коллекции'.
+
+            // Оператор автоматической генерации кода итератора.
             yield return "Hello world!";
         }
     }

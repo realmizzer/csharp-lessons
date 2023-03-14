@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace CustomCollection
+namespace InterIEnumerable
 {
     class MyClass
     {

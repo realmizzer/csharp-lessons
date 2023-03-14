@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace CustomCollection
+namespace InterIEnumerable
 {
     class MyClass
     {
@@ -31,11 +31,14 @@ namespace CustomCollection
 
         public IEnumerator GetEnumerator()
         {
+            // Замена метода из IEnumerator MoveNext() ...
             while (true)
             {
                 if (position < elementsArray.Length - 1)
                 {
                     position++;
+
+                    // ... оператором автоматической генерации кода итератора (перечислителя) - yield.
                     yield return elementsArray[position];
                 }
                 else
