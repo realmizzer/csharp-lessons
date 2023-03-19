@@ -14,7 +14,7 @@ namespace _001_ClassObject
 
         public override bool Equals(object obj)
         {
-            if(obj == null || this.GetType()  != obj.GetType()) 
+            if(obj == null || this.GetType() != obj.GetType()) 
                 return false;
 
             Point point = (Point)obj;
@@ -43,7 +43,7 @@ namespace _001_ClassObject
             Console.WriteLine("a == c : {0}", a.Equals(c));
 
             Console.WriteLine("a == b : {0}", Equals(a, b));
-            Console.WriteLine("a == c : {0}", Equals(a, c));
+            Console.WriteLine("a == c : {0}", Equals(a, c));;
 
             Console.ReadKey();
         }
