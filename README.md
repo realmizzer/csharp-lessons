@@ -22,3 +22,4 @@
 > <strong>16_operators_overload</strong> —  Урок 16. Перегрузка операторов. <br />
 > <strong>17_anonym_dynamic</strong> — Урок 17. Анонимные и динамические типы. LINQ <br />
 > <strong>18_namespaces</strong> — Урок 18. Пространства имён. Директивы препроцессора. <br />
+хайп ку
