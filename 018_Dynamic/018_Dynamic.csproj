@@ -7,7 +7,7 @@
     <ProjectGuid>{7624E3B5-F488-4A42-98D4-81A7FC037BF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_018_Dynamic</RootNamespace>
-    <AssemblyName>_018_Dynamic</AssemblyName>
+    <AssemblyName>018_Dynamic</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
